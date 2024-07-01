@@ -26,6 +26,9 @@ let package = Package(
         .binaryTarget(name: "MTGSDKNewInterstitial",
                       url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDKNewInterstitial.xcframework.zip",
                       checksum: "53a733de1eaf41e88b3e4af66591470d5dce638b8446a36f49e16fe06a7c5e40"),
+        .binaryTarget(name: "MTGSDKInterstitialVideo",
+                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDKInterstitialVideo.xcframework.zip",
+                      checksum: "c79bd1af489f2ecc2f7539f6433e130a0238436d82917d5de2d7773c5096f98c"),
         .binaryTarget(name: "MTGSDKReward",
                       url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDKReward.xcframework.zip",
                       checksum: "13a7c198addb32c7f33ed323906e91930276dc24581cc95e0480eb0d8c1f82d3"),
@@ -44,6 +47,7 @@ let package = Package(
                 .target(name: "MTGSDKBanner"),
                 .target(name: "MTGSDKBidding"),
                 .target(name: "MTGSDKNewInterstitial"),
+                .target(name: "MTGSDKInterstitialVideo")
                 .target(name: "MTGSDKReward"),
                 .target(name: "MTGSDKSplash"),
                 .target(name: "MTGSDKNativeAdvanced")
