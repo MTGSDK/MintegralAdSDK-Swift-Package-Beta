@@ -47,7 +47,7 @@ let package = Package(
                 .target(name: "MTGSDKBanner"),
                 .target(name: "MTGSDKBidding"),
                 .target(name: "MTGSDKNewInterstitial"),
-                .target(name: "MTGSDKInterstitialVideo")
+                .target(name: "MTGSDKInterstitialVideo"),
                 .target(name: "MTGSDKReward"),
                 .target(name: "MTGSDKSplash"),
                 .target(name: "MTGSDKNativeAdvanced")
