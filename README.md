@@ -1,4 +1,4 @@
-# MintegralAdSDK-Swift-Package
+# MintegralAdSDK-Swift-Package-Beta
 
 Mintegral iOS SDK for Swift Package Manager.
 
