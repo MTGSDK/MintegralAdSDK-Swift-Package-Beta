@@ -15,29 +15,29 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(name: "MTGSDK",
-                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDK.xcframework.zip",
-                      checksum: "889bca7bba81449f58aaa012d8875688f24ea9714b9b8d8e0ff7b8793296efc6"),
+                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.7/MTGSDK.xcframework.zip",
+                      checksum: "88177f22451fe0639030b28d7e48385901d86ce0e2f3fe0754d05554117b2ddf"),
         .binaryTarget(name: "MTGSDKBanner",
-                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDKBanner.xcframework.zip",
-                      checksum: "9f586ce074b5308d1c9ff61bf9327450441ece0585f3f6de04e0b5170098331d"),
+                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.7/MTGSDKBanner.xcframework.zip",
+                      checksum: "8485fca6fdaa40373337485efc3cd69e27a675f2d43fcb6205a34b08dc6e6f40"),
         .binaryTarget(name: "MTGSDKBidding",
-                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDKBidding.xcframework.zip",
-                      checksum: "9091a123ae215901e89e68bb880eaeb3e409cacc0a88f680646e374de3e90294"),
+                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.7/MTGSDKBidding.xcframework.zip",
+                      checksum: "92013a8e4f30613b10e4a0df68760664cfd42677ec9283e271b1a75ab3142a28"),
         .binaryTarget(name: "MTGSDKNewInterstitial",
-                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDKNewInterstitial.xcframework.zip",
-                      checksum: "53a733de1eaf41e88b3e4af66591470d5dce638b8446a36f49e16fe06a7c5e40"),
+                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.7/MTGSDKNewInterstitial.xcframework.zip",
+                      checksum: "052d403599f518c2e5a75d8780beff07d72eed878ae3d086549130b83f98f970"),
         .binaryTarget(name: "MTGSDKInterstitialVideo",
-                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDKInterstitialVideo.xcframework.zip",
-                      checksum: "c79bd1af489f2ecc2f7539f6433e130a0238436d82917d5de2d7773c5096f98c"),
+                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.7/MTGSDKInterstitialVideo.xcframework.zip",
+                      checksum: "eb6a62bac23813aea2f6baef765b527095a0fb39525fb61df070b7ba4fd35906"),
         .binaryTarget(name: "MTGSDKReward",
-                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDKReward.xcframework.zip",
-                      checksum: "13a7c198addb32c7f33ed323906e91930276dc24581cc95e0480eb0d8c1f82d3"),
+                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.7/MTGSDKReward.xcframework.zip",
+                      checksum: "53a02e55e1ed1856857dcff4b64cdffa7e5f8a8de78da7e4f7de83ace37cc607"),
         .binaryTarget(name: "MTGSDKSplash",
-                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDKSplash.xcframework.zip",
-                      checksum: "a9325270537241a21a5a1aa2e8479a7a1876fa87377b629174f2bd9bb6d4c9e1"),
+                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.7/MTGSDKSplash.xcframework.zip",
+                      checksum: "b42f0480a56223e488f3165bb0e1ceda7337ff4ba1c2d5be7bfd361d7572d551"),
         .binaryTarget(name: "MTGSDKNativeAdvanced",
-                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.1-beta/MTGSDKNativeAdvanced.xcframework.zip",
-                      checksum: "b2dc3423f56e8c1806befd4eb2256b914064785719be975c85b45012bed42ef7"),
+                      url:"https://github.com/MTGSDK/MintegralAdSDK-Swift-Package-Beta/releases/download/0.0.7/MTGSDKNativeAdvanced.xcframework.zip",
+                      checksum: "7fe4fa6c9cac3933f7affa1fd760383cdbdc5e0f65cdbb17c0b2ac1d93bbf19d"),
       
         
         .target(
@@ -80,8 +80,7 @@ let package = Package(
                 .linkedLibrary("c++"),
             ]),
         .testTarget(
-            name: "MintegralAdSDKBetaTests",
+            name: "MintegralAdSDKTests",
             dependencies: ["MintegralAdSDKBeta"]),
     ]
 )
-
